@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/contatos.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <div class="navbar">
+            <ul>
+                <li><a href="../index-carango.html" >Home</a></li>
+                <li><a href="../pages/sobre.html" >Sobre</a></li>
+                <li><a href="../pages/modelos.html"  >Modelos</a></li>
+                <li><a href="../pages/contatos.html">Contatos</a></li>
+            </ul>
+        </div>	
+    </header>
+</div>
+
+<h1 class="titulo">Entre em contato conosco!</h1>
+<h2 class="titulo">Envie sua dúvida ou feedback</h2>
+<div class="formularioContato">
+        
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label>
+            <span><i class="icon icon-user-1"></i> Nome</span>
+            <input type="text" name="nome" required="">
+        </label>
+        
+        <label>
+            <span><i class="icon icon-email"></i> E-mail</span>
+            <input type="text" name="email" class="fade_8S">
+        </label>
+        <label>
+            <span><i class="icon icon-flag"></i> Assunto</span>
+            <input type="text" name="assunto" required="">
+        </label>
+        
+        <label>
+            <span><i class="icon icon-comment"></i> Mensagem</span>
+             <textarea name="mensagem" rows="3" required=""></textarea> 
+        </label>
+       
+        <input type="hidden" name="acao" value="enviar" />
+        <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+    
+    </form>
+</div>
+</body>
+</html>
